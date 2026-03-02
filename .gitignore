@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+speeches/*.json
+speeches/*.txt
+*.egg-info/
+.venv/
+venv/
