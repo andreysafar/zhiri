@@ -1,0 +1,8 @@
+services:
+  zhirinovsky-bot:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      # scraped speeches persist between restarts
+      - ./speeches:/app/speeches
